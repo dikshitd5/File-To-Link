@@ -231,7 +231,7 @@ async def about_handler(bot, message):
 ┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : sᴘɪᴅʏ ғɪʟᴇ𝟸ʟɪɴᴋ</b>
 ┣⪼<b>ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/YourDemandZone'>ʏᴏᴜʀᴅᴇᴍᴀɴᴅᴢᴏɴᴇ</a></b>
 ┣⪼<b>ᴍʏʙᴏss : <a href='https://t.me/Mr_Spidy'>ᴍʀ.sᴘɪᴅʏ</a></b>
-┣⪼<b>ᴄᴏɴᴛᴀᴄᴛ : <a href='https://t.me/Mr_SpidyBpt'>ᴀssɪsᴛᴀɴᴛ</a></b>
+┣⪼<b>ᴄᴏɴᴛᴀᴄᴛ : <a href='https://t.me/Mr_SpidyBot'>ᴀssɪsᴛᴀɴᴛ</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
