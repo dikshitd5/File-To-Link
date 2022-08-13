@@ -124,7 +124,7 @@ async def start(b, m):
 
         msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n@YourDemandZone**"
         await m.reply_photo(
-            photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
+            photo="https://graph.org/file/a279c2f60e66407e71257.jpg",
             caption=msg_text.format(file_name, file_size, stream_link),
             
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ⚡", url=stream_link)]])
@@ -171,8 +171,8 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_photo(
-            photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
-            caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /about\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜʙsᴄʀɪʙᴇ**", 
+            photo="https://graph.org/file/9499e367a31497f9a9e05.jpg",
+            caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /about\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ**", 
   
         
         reply_markup=InlineKeyboardMarkup(
@@ -223,7 +223,7 @@ async def about_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_photo(
-            photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
+            photo="https://graph.org/file/a279c2f60e66407e71257.jpg",
             caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
@@ -241,8 +241,8 @@ async def about_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/MWUpdatez"), InlineKeyboardButton("💸 ᴅᴏɴᴀᴛᴇ 💸", url="https://paypal.me/114912Aadil")],
-                [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://youtube.com/opustechz")]
+                [InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥☢️", url="https://t.me/YourDemandZone"), InlineKeyboardButton("𝐎𝐰𝐧𝐞𝐫😎", url="https://t.me/Mr_Spidy")],
+                [InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭💌", url="https://t.me/Mr_SpidyBot")]
             ]
         )
     )
