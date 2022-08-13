@@ -24,7 +24,7 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 async def login_handler(c: Client, m: Message):
     try:
         try:
-            ag = await m.reply_text("Now send me password.\n\n If You don't know check the MY_PASS Variable in heroku \n\n(You can use /cancel command to cancel the process)")
+            ag = await m.reply_text("Now send me password.\n\n(You can use /cancel command to cancel the process)")
             _text = await c.listen(m.chat.id, filters=filters.text, timeout=90)
             if _text.text:
                 textp = _text.text
@@ -110,7 +110,7 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- </b> <i><b>{}</b></i>
 
-<b>🖥 ᴡᴀʏᴄʜ ᴏɴʟɪɴᴇ :- </b> <i><b>{}</b></i>
+<b>🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ :- </b> <i><b>{}</b></i>
 
 <b>♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛs ᴇxᴘɪʀᴇᴅ ♻️\n\n@YourDemandZone</b>"""
 
@@ -134,7 +134,7 @@ async def channel_receive_handler(bot, broadcast):
     if MY_PASS:
         check_pass = await pass_db.get_user_pass(broadcast.chat.id)
         if check_pass == None:
-            await broadcast.reply_text("Login first using /login cmd \n don\'t know the pass? request it from @opustechz")
+            await broadcast.reply_text("Login first using /login cmd \n don\'t know the pass? request it from @Mr_SpidyBot")
             return
         if check_pass != MY_PASS:
             await broadcast.reply_text("Wrong password, login again")
